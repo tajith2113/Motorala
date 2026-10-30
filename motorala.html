@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        *{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            
+        }
+        body{
+            background:linear-gradient(to right, blue, white,blue) ;
+        }
+
+        #nev{
+            height: 100px;
+            display: flex;
+            justify-content:space-evenly ;
+            background: linear-gradient(to right, blue, white, blue);
+            box-shadow: 0px 2px gray;
+            top: 0px;
+            position: sticky;
+
+        }
+
+       
+       a{
+        text-decoration: none;
+        color: white;
+        position: relative;
+        }
+
+        #img1{
+            height: 98px;
+        }
+
+        #left,
+        #meadil,
+        #right{
+            height: 98px;
+            width: 600px;
+            display: flex;
+            justify-content:space-evenly ;
+            align-items: center;
+        }
+
+        #slide1{
+            height: 90vh;
+        }
+
+        video{
+            height: 100%;
+            width: 100%;
+        object-fit: cover;
+        }
+
+        #slide2{
+            height: 98vh;
+            border: 3px solid;
+             display: flex;
+            justify-content:space-evenly ;
+            align-items: center;
+        }
+
+        #box1{
+            height: 700px;
+            width: 700px;
+        }
+
+        #box2{
+            height: 600px;
+            width: 450px;
+            text-align: center;
+           padding: 20px;
+            
+        }
+
+        #img2{
+            height: 500px;
+        }
+
+        #img2:hover{
+            transform: rotate(360deg);
+            transition-duration:3s;
+
+        }
+
+        #footer{
+            height: 80px;
+            border: 1px solid;
+            background-color: black;
+            display: flex;
+            justify-content:space-evenly ;
+            align-items: center;
+        }
+
+        #img3{
+            height: 80px;
+            width: 400px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="nev">
+        <div id="left"><a href="#slide1">HOME</a><a href=" #slide2">ABOUT</a></div>
+        <div id="meadil">
+            <img id="img1"
+                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0be0d21b-8c8c-498b-b996-f9270182639e/dhcl06m-a98b82c7-8081-4216-ab65-bd9210856d7c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8wYmUwZDIxYi04YzhjLTQ5OGItYjk5Ni1mOTI3MDE4MjYzOWUvZGhjbDA2bS1hOThiODJjNy04MDgxLTQyMTYtYWI2NS1iZDkyMTA4NTZkN2MucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.5on44p4ntO18xpj5MtQb0_SMmsP605rxL93WlLxYXVY"
+                     alt="" style height="98px"></div>
+        <div id="right"><a href="">PROFIL</a><a href="">LOGOUT</a></div>
+  </div>
+
+  <div id="slide1">
+    <video id="video" autoplay loop muted playsline>
+        <source src="/phone (1).mp4"type="video/mp4">
+    </video>
+  </div>
+
+  <div id="slide2">
+    <div id="box1"> <img id="img2" src="/Daco_72850.png" alt=""></div>
+    <div id="box2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat laudantium commodi deserunt accusamus aperiam aliquam temporibus est libero, minus molestiae, tempore, animi quos ad debitis? Ratione voluptatum quod voluptas qui.
+    Recusandae quas saepe ut, doloribus a reprehenderit! Odit nostrum fuga aperiam. Veniam, adipisci rerum, ad quod illum obcaecati harum quas quidem ut et, quae accusantium fugit doloremque laboriosam quam facilis.
+    Tempora id quos vero, eum explicabo possimus? Quam nemo porro, soluta quibusdam debitis reiciendis corrupti nobis, nulla amet ea iure modi atque dignissimos error laboriosam impedit laudantium quisquam, perferendis maiores.
+    Quos nam maxime doloremque. Dolor beatae dicta itaque, perferendis odio optio inventore hic, numquam ut quis tempore consectetur officia, est suscipit reprehenderit nisi at incidunt placeat consequatur! Laboriosam, natus pariatur?
+    Cupiditate illum fugiat expedita assumenda quasi recusandae cumque, itaque possimus ad incidunt at saepe quae placeat distinctio iure a vitae beatae consequatur pariatur aspernatur quidem inventore tenetur! Saepe, corrupti quod!
+    aceat est maxime reprehenderit totam illum sequi vel labore hic dolor! Obcaecati magnam, dolore voluptates aspernatur praesentium nulla odio illum tempora enim corporis consectetur hic aperiam excepturi omnis quia blanditiis.</div>
+  </div>
+
+  <div id="footer"><img id="img3" src="social_media_icons_black_colored_icon_set_set_popular_social_media.jpg" alt=""></div>
+</body>
+</html>
